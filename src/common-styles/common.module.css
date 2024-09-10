@@ -1,0 +1,12 @@
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 40px;
+  color: #010101;
+  align-items: flex-start;
+  align-content: flex-start;
+}
