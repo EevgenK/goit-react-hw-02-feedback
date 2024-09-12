@@ -11,6 +11,11 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   ));
   return <ul className={css.list}>{items}</ul>;
 };
+
+FeedbackOptions.defaultProps = {
+  options: [],
+};
+
 FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
